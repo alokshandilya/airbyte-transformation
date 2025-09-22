@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / virtual environment files
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+# uv virtual environments place their .venv in a subdirectory
+.direnv/
+.python-version
+
+# Temporary files and artifacts
+.tox/
+.nox/
+.pytest_cache/
+.coverage.*
+htmlcov/
+dist/
+build/
+*.egg-info/
+*.whl
+
+# Editor and IDE files
+# VS Code
+.vscode/
+# Note: It is often useful to include .vscode/settings.json in your repository, but ignore the rest.
+!.vscode/settings.json
+
+# PyCharm and other JetBrains IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Sensitive files
+# Configuration files with secrets (e.g., database credentials)
+.env
+.flaskenv
+# Python-specific secrets
+secrets.py
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Miscellaneous
+*.log
+*.sqlite3
+test.py
